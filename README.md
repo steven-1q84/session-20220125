@@ -16,7 +16,7 @@
 > - 哲学家左右手都要有⽀叉⼦才能把面吃到嘴里，不然只能等邻座的放下叉子才能就餐
 > - 哲学家吃完后会把两⽀叉⼦放回原处，继续思考
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\027.png" style="zoom:60%;" />
+<img src=".\pics\027.png" style="zoom:60%;" />
 
 #### 极端特例
 
@@ -24,7 +24,7 @@
 > - 桌上已经没有叉子了，大家都在等邻座的放下手中的叉子
 > - 没有一个哲学家能完成就餐，最后大家一起饿死
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\028.png" style="zoom:60%;" />
+<img src=".\pics\028.png" style="zoom:60%;" />
 
 #### 问题
 
@@ -56,7 +56,7 @@
 
 > 资源互斥：小明和小红不能同时拿着同一把钥匙
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\029.png" style="zoom:80%;" />
+<img src=".\pics\029.png" style="zoom:80%;" />
 
 
 
@@ -65,19 +65,19 @@
 > - 小明等待小红放下自己房间的钥匙，同时拿着小红房间的钥匙不放
 > - 小红等待小明放下自己房间的钥匙，同时拿着小明房间的钥匙不放
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\030.png" style="zoom:80%;" />
+<img src=".\pics\030.png" style="zoom:80%;" />
 
 
 
 > 不可剥夺：小明和小红都不能从对方手里抢钥匙
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\031.png" style="zoom: 80%;" />
+<img src=".\pics\031.png" style="zoom: 80%;" />
 
 
 
 > 环路等待：小明和小红的等待对象构成了环路
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\032.png" style="zoom:80%;" />
+<img src=".\pics\032.png" style="zoom:80%;" />
 
 
 
@@ -102,7 +102,7 @@
 >   2、控制单元用于识别字符是数据还是指令，以及控制程序的流程等；
 >   3、运算单元用于执行运算指令
 
-![](C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\003.jpg)
+![](.\pics\003.jpg)
 
 ##### 冯诺依曼模型
 
@@ -122,7 +122,7 @@
 >   - 地址总线：指定数据总线连接到的内存地址
 >   - 控制总线：收发信号，例如中断和设备复位信号
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\004.png" style="zoom:80%;" />
+<img src=".\pics\004.png" style="zoom:80%;" />
 
 ##### 图灵 vs 冯诺依曼
 
@@ -144,19 +144,19 @@
 > 1. 读写头把 「1、 2、 +」这 3 个字符分别写⼊到纸带上的 3 个格⼦，然后读写头先停在 1 字符
 >    对应的格⼦上
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\039.png" style="zoom: 50%;" />
+<img src=".\pics\039.png" style="zoom: 50%;" />
 
 
 
 > 2. 读写头读⼊ 1 到存储设备中，这个存储设备称为图灵机的状态  
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\040.png" style="zoom:53%;" />
+<img src=".\pics\040.png" style="zoom:53%;" />
 
 
 
 > 3. 读写头向右移动⼀个格，⽤同样的⽅式把 2 读⼊到图灵机的状态；图灵机的状态中存储着两个连续的数字：1 和 2  
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\041.png" style="zoom:55%;" />
+<img src=".\pics\041.png" style="zoom:55%;" />
 
 
 
@@ -165,13 +165,13 @@
 >    - 控制单元发现是⼀个 + 号⽽不是数字，通知「运算单元」⼯作
 >    - 运算单元把状态中的1 和 2 读⼊并计算，将计算的结果 3 存放到状态中  
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\042.png" style="zoom:60%;" />
+<img src=".\pics\042.png" style="zoom:60%;" />
 
 
 
 > 5. 运算单元将结果返回给控制单元，控制单元将结果传输给读写头，读写头向右移动，把结果 3写⼊到纸带的格⼦中
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\043.png" style="zoom:45%;" />
+<img src=".\pics\043.png" style="zoom:45%;" />
 
 
 
@@ -186,7 +186,7 @@
 >   - 操作数‘1’和‘2’保存在数据段中
 >   - 运算指令'+'保存在代码段中
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\005.png" style="zoom: 33%;" />
+<img src=".\pics\005.png" style="zoom: 33%;" />
 
 ##### 指令周期
 
@@ -195,7 +195,7 @@
 > 3. Execution：执行，执行MIPS指令
 > 4. Store：回写，计算结果回写至存储器
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\006.png" style="zoom: 33%;" />
+<img src=".\pics\006.png" style="zoom: 33%;" />
 
 
 
@@ -222,7 +222,7 @@ CPU为什么要从Cache中而不是从内存中直接读取数据？
 > - 书：内存
 > - 图书馆的书架：硬盘
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\008.png" style="zoom: 67%;" />
+<img src=".\pics\008.png" style="zoom: 67%;" />
 
 ##### 存储器材料性能对比
 
@@ -261,7 +261,7 @@ CPU为什么要从Cache中而不是从内存中直接读取数据？
 > - 正因为成本太⾼， CPU 内部的寄存器、 L1\L2\L3 Cache 容量较小
 > - 相反内存、硬盘则可⽤更⼤的容量
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\009.png" style="zoom: 67%;" />
+<img src=".\pics\009.png" style="zoom: 67%;" />
 
 
 
@@ -271,13 +271,13 @@ CPU为什么要从Cache中而不是从内存中直接读取数据？
 > - L1缓存细分为数据缓存和指令缓存，大小一样
 > - 核心之间共享L3缓存
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\007.png" style="zoom:60%;" />
+<img src=".\pics\007.png" style="zoom:60%;" />
 
 
 
 【例】：Intel i5 8250U缓存架构
 
-![](C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\002.png)
+<img src=".\pics\002.png" style="zoom: 90%;" />
 
 
 
@@ -303,7 +303,7 @@ CPU为什么要从Cache中而不是从内存中直接读取数据？
 > - Cache Line当前指向的Block由**Cache Lin数据结构**中的**组标记（Tag）**决定
 > - CPU通过组标记辨别Cache Line是否对应到自己想要的Block
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\010.png" style="zoom:60%;" />
+<img src=".\pics\010.png" style="zoom:60%;" />
 
 ##### CPU读写数据的方式
 
@@ -319,7 +319,7 @@ CPU为什么要从Cache中而不是从内存中直接读取数据？
 >     - 如果有，说明Cache中的数据和内存不一样，CPU在加载Block前会先把Cache Line回写到内存中
 >     - 如果没有，则不用执行上一操作
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\011.png" style="zoom: 67%;" />
+<img src=".\pics\011.png" style="zoom: 67%;" />
 
 ##### 缓存命中率
 
@@ -406,7 +406,7 @@ do {
 > 2. 程序B获得CPU使用权，再次对地址0x2000中数据进行操作，写入了不同的数据，程序B让出CPU使用权；
 > 3. 程序A再次获得CPU使用权，程序A读地址0x2000中的数据，很不巧，由于B的修改导致程序A出错了，系统崩溃。
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\012.png" style="zoom:60%;" />
+<img src=".\pics\012.png" style="zoom:60%;" />
 
 
 
@@ -417,7 +417,7 @@ do {
 > - 操作系统负责处理虚拟地址和物理地址之间的映射关系，为每个进程分配实际使用的**物理地址**
 > - 实际的效果是，进程使用了不同的物理地址，而他们自己是不知道的（不识庐山真面目，只缘身在此山中😅）
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\013.png" style="zoom:75%;" />
+<img src=".\pics\013.png" style="zoom:75%;" />
 
 ##### linux管理内存的方式
 
@@ -427,7 +427,7 @@ do {
 > - 进程在用户态时只能访问用户空间的内存
 > - 进程进入内核态后才可以访问内核空间的内存
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\014.png" style="zoom:60%;" />
+<img src=".\pics\014.png" style="zoom:60%;" />
 
 
 
@@ -443,7 +443,7 @@ do {
 >* 栈段，包括局部变量和函数调⽤的上下⽂等
 >* 栈的⼤⼩是固定的，⼀般是 8 MB；大小可通过系统提供的参数调整
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\015.png" style="zoom:50%;" />
+<img src=".\pics\015.png" style="zoom:50%;" />
 
 
 
@@ -475,7 +475,7 @@ do {
 
 > 进程在用户态只能访问局部的内存空间，而在内核态则可以访问所有的内存空间；系统调用为进程提供了从用户态进入内核态的接口
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\016.png" style="zoom:75%;" />
+<img src=".\pics\016.png" style="zoom:75%;" />
 
 ##### 操作系统分类
 
@@ -492,7 +492,7 @@ do {
 >   - 内核中包含抽象出的微内核，其它模块在微内核基础上搭建，整个内核是完整的程序
 >   - 【例】Windows NT
 
-![](C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\017.png)
+![](.\pics\017.png)
 
 
 
@@ -521,7 +521,7 @@ do {
 > - 并行
 >   - CPU不同核心处理各自不同的任务
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\018、.png" style="zoom:50%;" />
+<img src=".\pics\018、.png" style="zoom:50%;" />
 
 
 
@@ -530,7 +530,7 @@ do {
 > - 线程是生存在进程中的业务流程，分享系统分配给进程的资源，包括：地址空间、代码段、文件描述符列表...
 > - 内核统一调度单线程进程或进程中的线程，这些调度单位称为**任务**，用结构体**task_struct**描述
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\019.png" style="zoom:60%;" />
+<img src=".\pics\019.png" style="zoom:60%;" />
 
 
 
@@ -594,7 +594,7 @@ do {
 >   - 阻塞-->就绪：进程拿到东西了
 >   - 就绪-->运行：进程被“公公”选中
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\020.png" style="zoom:60%;" />
+<img src=".\pics\020.png" style="zoom:60%;" />
 
 ###### 进程的组织和控制
 
@@ -624,7 +624,7 @@ do {
 >     - 从阻塞队列中查找PCB
 >     - 修改PCB状态，并将其插入到就绪队列
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\021.png" style="zoom:60%;" />
+<img src=".\pics\021.png" style="zoom:60%;" />
 
 ###### 引申话题
 
@@ -697,7 +697,7 @@ $ ps auxf | grep mysql
 > - 只用用于具有亲缘关系的进程之间单向通信
 > - 生命周期在进程结束后终结
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\022.png" style="zoom:75%;" />
+<img src=".\pics\022.png" style="zoom:75%;" />
 
 ##### 有名管道
 
@@ -742,7 +742,7 @@ $ ps auxf | grep mysql
 >
 > PS：进程A、B操作共享资源的代码段称为**临界区**
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\023.png" style="zoom:60%;" />
+<img src=".\pics\023.png" style="zoom:60%;" />
 
 
 
@@ -785,7 +785,7 @@ $ ps auxf | grep mysql
 >   - P、V操作成对出现
 >   - P操作在V操作前
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\024.png" style="zoom:60%;" />
+<img src=".\pics\024.png" style="zoom:60%;" />
 
 
 
@@ -802,7 +802,7 @@ $ ps auxf | grep mysql
 >   - 进程关系不平等，分为生产者和消费者两类
 >   - 生产者执行V操作，消费者执行P操作
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\025.png" style="zoom:60%;" />
+<img src=".\pics\025.png" style="zoom:60%;" />
 
 
 
@@ -873,7 +873,7 @@ $ kill -l
 
 ##### 互斥锁的例子
 
-![互斥锁](C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\001.png)
+![互斥锁](.\pics\001.png)
 
 #### 2.6.2. 信号量
 
@@ -1240,7 +1240,7 @@ int main(void) {
 
 > 有叉子就直接拿起来，没叉子就等其它哲学家放回去
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\033.png" style="zoom: 80%;" />
+<img src=".\pics\033.png" style="zoom: 80%;" />
 
 
 
@@ -1248,7 +1248,7 @@ int main(void) {
 
 > 大家一起饿死
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\028.png" style="zoom:60%;" />
+<img src=".\pics\028.png" style="zoom:60%;" />
 
 
 
@@ -1272,13 +1272,13 @@ int main(void) {
 >
 > - 破坏的条件：持有等待 —— 不会出现手上拿着一把叉子等待另一把的情况
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\034.png" style="zoom:80%;" />
+<img src=".\pics\034.png" style="zoom:80%;" />
 
 #### 问题
 
 > 每次只能有一位哲学家就餐，其他哲学家只能等他吃完，桌上放两把叉子就够了
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\035.png" style="zoom:70%;" />
+<img src=".\pics\035.png" style="zoom:70%;" />
 
 
 
@@ -1292,7 +1292,7 @@ int main(void) {
 > - 偶数哲学家先右后左
 > - 破坏的条件：环路等待 —— 持有等待的对象不会构成环路
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\037.png" alt="037" style="zoom:80%;" />
+<img src=".\pics\037.png" alt="037" style="zoom:80%;" />
 
 
 
@@ -1300,7 +1300,7 @@ int main(void) {
 
 > 即不会死锁，也可以保证同时有两位科学家在用餐
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\036.png" style="zoom:75%;" />
+<img src=".\pics\036.png" style="zoom:75%;" />
 
 ### 3.4. 方案四（换个角度看问题）
 
@@ -1311,7 +1311,7 @@ int main(void) {
 > - 只有当与之相邻的哲学家完成就餐，哲学家才会取用他们之间的叉子
 > - 破坏的条件：互斥 —— 将邻座哲学家对叉子的竞争关系转换成了协作关系
 
-<img src="C:\Users\Steev\OneDrive\Notes\哲学家就餐问题\pics\038.png" style="zoom:80%;" />
+<img src=".\pics\038.png" style="zoom:80%;" />
 
 
 
